@@ -36,4 +36,6 @@ function addElementToEndOfArray(array, element){
    return array;
  }
  
- 
+ function removeElementFromBeginningOfArray(array){
+   var remoElement = array.slice();
+ }
