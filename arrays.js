@@ -46,4 +46,8 @@ function addElementToEndOfArray(array, element){
    return array;
  }
  
- function 
+ function removeElementFromEndOfArray(array){
+   var remoEnd = array.slice(0, array.length -1);
+   return remoEnd;
+   
+ }
